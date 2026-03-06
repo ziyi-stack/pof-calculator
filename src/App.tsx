@@ -76,7 +76,7 @@ export default function App() {
   };
 
   // --- Mock Backend Function ---
-  const fetchBaselineFromBackend = async (acctId: string) => {
+  const fetchBaselineFromBackend = async (_acctId: string) => {
     return new Promise<any>((resolve) => {
       setTimeout(() => {
         resolve({
