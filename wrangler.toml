@@ -1,0 +1,7 @@
+name = "pof-calculator"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "pof_db"
+database_name = "pof-db"
+database_id = "b2ac8db4-2f91-4af9-bee0-46f7063b5b21"
